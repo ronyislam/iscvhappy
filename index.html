@@ -1,12 +1,23 @@
 <head>
   <title>Is CV Happy?</title>
   <link rel="icon" type="image/png" href="no.png" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-66328796-3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-66328796-3');
+</script>
+
 </head>
 
 <body>
 
   <div class="left">
     <div class="no">NO.</div>
+      <div class="author">Created by: <a href="http://ronyislam.com/" target="_blank">ronyislam.com</a></div>
   </div>
 
   <div class="right">
@@ -28,6 +39,14 @@
     float: left;
     height: 100%;
   }
+    .author{
+        position: absolute;
+        bottom: 25px;
+        left: 15px;
+        color:white;
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-size: 1.5em;
+    }
   .right {
     width: 50%;
     float: right;
@@ -41,6 +60,6 @@
     align-items: center;
     color: white;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 20em;
+    font-size: 25vw;
   }
 </style>
